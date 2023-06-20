@@ -1,3 +1,9 @@
+.set-center {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
 .button-link {
   display: inline-block;
   background-color: #4E342E;
@@ -35,27 +41,16 @@
   background-color: #6D4C41;
 }
 
-.button-link .logo {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 10px;
-  width: 20px;
-  height: 20px;
-}
-
-
-
 .useful-links {
-  /* display: flex; */
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(262%, 5%);
   background-color: #F5DEB3;
   padding: 20px;
   border: 1px solid #F5DEB3;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translate(-50%, -50%);
 }
 
 .useful-links h2 {

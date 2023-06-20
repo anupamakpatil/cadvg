@@ -4,7 +4,7 @@
     position: absolute;
     /* top: 30px; */
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 30px;
     align-items: center;
 }
@@ -43,6 +43,7 @@
 
 .parent-component {
     position: relative;
+    width: 100vw;
 }
 
 .child-component {

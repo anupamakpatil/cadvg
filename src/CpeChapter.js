@@ -3,12 +3,6 @@ import './CpeChapter.css';
 import cpe from './images/cpe.jpeg';
 
 class CpeChapter extends Component {
-    static defaultProps = {
-        cpe: [
-            { id: 1, name: 'CA N.G. Girish Nadig', pos: 'Convenor' },
-            { id: 2, name: 'CA. D.V. Praveen', pos: 'Deputy Convenor' }
-        ]
-    };
     render() {
         return (
             <div>

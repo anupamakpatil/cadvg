@@ -4,7 +4,7 @@ import './UsefulLinks.css';
 class UsefulLinks extends Component {
     render() {
         return (
-            <div>
+            <div className='set-center'>
                 <div className='useful-links'>
                     <h2>Here are some Useful Links to refer</h2> <br/>
 
