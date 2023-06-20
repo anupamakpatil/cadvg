@@ -1,0 +1,76 @@
+.button-link {
+  display: inline-block;
+  background-color: #4E342E;
+  color: #FFF;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 4px;
+  padding-left: 16px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.17;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  width: 220px;
+  height: 30px;
+  border: 2px solid #000;
+}
+
+.container{
+  margin-bottom: 15px;
+}
+
+
+.button-link:hover {
+  background-color: #6D4C41;
+}
+
+.button-link .logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+
+
+.useful-links {
+  /* display: flex; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(262%, 5%);
+  background-color: #F5DEB3;
+  padding: 20px;
+  border: 1px solid #F5DEB3;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.useful-links h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.useful-links a {
+  text-decoration: none;
+  color: #D7CCC8;
+  font-weight: bold;
+}
+
+.useful-links a:hover {
+  text-decoration: underline;
+}
+
