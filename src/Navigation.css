@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.navigation active-link {
+.active-link {
     color: #FFF;
     background-color: #4E342E;
     padding-top: 10px;

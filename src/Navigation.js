@@ -9,6 +9,7 @@ import UsefulLinks from './UsefulLinks';
 import Article1 from './Article1';
 import Article2 from './Article2';
 import Article3 from './Article3';
+import Intro from './Intro';
 import './Navigation.css';
 import llogo from './images/llogo.ico';
 import rlogo from './images/rlogo.ico';
@@ -22,14 +23,14 @@ class Navigation extends Component {
                         <img src={llogo} alt="Logo Left"  />
                     </div>
                     <ul>
-                        <li><NavLink activeClassName='active-link' exact to="/">Home</NavLink></li>
+                        <li><NavLink exact activeClassName='active-link' to="/">Home</NavLink></li>
                         <li><a href='https://www.icai.org/Members.html' target="_blank" rel="noopener noreferrer">Members</a></li>
                         <li><a href='https://www.icai.org/Students.html' target="_blank" rel="noopener noreferrer">Students</a></li>
-                        <li><NavLink activeClassName='active-link' exact to="/articles">e-Journal</NavLink></li>
-                        <li><NavLink activeClassName='active-link' exact to="/events">Events</NavLink></li>
-                        <li><NavLink activeClassName='active-link' exact to="/cpe-chapter">CPE Chapter</NavLink></li>
-                        <li><NavLink activeClassName='active-link' exact to="/history">History</NavLink></li>
-                        <li><NavLink activeClassName='active-link' exact to="/useful-links">Useful Links</NavLink></li>
+                        <li><NavLink exact activeClassName='active-link' to="/articles">e-Journal</NavLink></li>
+                        <li><NavLink exact activeClassName='active-link' to="/events">Events</NavLink></li>
+                        <li><NavLink exact activeClassName='active-link' to="/cpe-chapter">CPE Chapter</NavLink></li>
+                        <li><NavLink exact activeClassName='active-link' to="/history">History</NavLink></li>
+                        <li><NavLink exact activeClassName='active-link' to="/useful-links">Useful Links</NavLink></li>
                     </ul>
                     <div className="logo-right">
                         <img src={rlogo} alt="Logo Right" />
@@ -46,6 +47,7 @@ class Navigation extends Component {
                         <Route exact path="/articles/articleone" element={<Article1 />} />
                         <Route exact path="/articles/articletwo" element={<Article2 />} />
                         <Route exact path="/articles/articlethree" element={<Article3 />} />
+                        <Route exact path="/intro" element={<Intro />} />
                     </Routes>
                 </div>
             </div>
