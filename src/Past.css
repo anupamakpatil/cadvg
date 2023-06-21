@@ -75,3 +75,7 @@ h1:after {
     line-height: 1.25;
     margin-bottom: 10px;
 }
+
+.deco {
+	text-decoration: none;
+}
