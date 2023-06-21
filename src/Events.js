@@ -8,7 +8,7 @@ class Events extends Component {
 
         return (
             <div className="road">
-                <img src={timeline} alt="timeline" />
+                <img src={timeline} alt="timeline" className='road-image'/>
             </div>
         );
     }
