@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './OfficeBear.css';
 import prespre from './images/prespre.jpeg';
 import pressec from './images/pressec.jpeg';
-import exec from './images/exec.JPG';
+import exec from './images/exec.jpeg';
 
 class OfficeBear extends Component {
     render() {
