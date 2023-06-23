@@ -10,11 +10,11 @@ import Article1 from './Article1';
 import Article2 from './Article2';
 import Article3 from './Article3';
 import Intro from './Intro';
-import './Navigation.css';
+import './Navigation1.css';
 import llogo from './images/llogo.ico';
 import rlogo from './images/rlogo.ico';
 
-class Navigation extends Component {
+class Navigation1 extends Component {
     render() {
         return (
             <div className='parent-component'>
@@ -55,4 +55,4 @@ class Navigation extends Component {
     }
 }
 
-export default Navigation;
+export default Navigation1;

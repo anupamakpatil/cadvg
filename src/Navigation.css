@@ -1,11 +1,8 @@
 .navigation {
     background-color: #6D4C41;
     padding: 10px;
-    position: absolute;
-    /* top: 30px; */
-    left: 0;
-    width: 100vw;
-    height: 30px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -30,8 +27,14 @@
 .navigation ul li a {
     color: #D7CCC8;
     text-decoration: none;
-    padding: 20px;
-    font-size: 25px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    .navigation ul li a {
+        font-size: 25px;
+    }
 }
 
 .navigation ul li a:hover {
@@ -47,24 +50,25 @@
 }
 
 .child-component {
-    position: absolute;
-    /* top: 50%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
-    top: 70px;
+    position: relative;
+    top: 60px;
 }
 
+@media (min-width: 768px) {
+    .child-component {
+        top: 70px;
+    }
+}
+
+
 .logo-left {
-    position: absolute;
-    top: 0px;
-    left: 30px;
+    margin-left: 10px;
 }
 
 .logo-right {
-    position: absolute;
-    top: 0px;
-    right: 50px;
+    margin-right: 10px;
 }
+
 
 .image-resize {
     width: 300px;
