@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './CarouselSlider.css';
+import './CarouselSlider1.css';
 import sc1 from './images/sc1.jpg';
 import sc2 from './images/sc2.jpeg';
 import sc3 from './images/sc3.jpeg';
 import sc4 from './images/sc4.jpeg';
 import sc5 from './images/sc5.jpeg';
 
-class CarouselSlider extends Component {
+class CarouselSlider1 extends Component {
   static defaultProps = {
     images: [sc1, sc2, sc3, sc4, sc5]
   };
@@ -62,4 +62,4 @@ class CarouselSlider extends Component {
   }
 }
 
-export default CarouselSlider;
+export default CarouselSlider1;
