@@ -104,8 +104,8 @@
 
 .card-row {
     display: flex;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .banner-text {
@@ -116,6 +116,9 @@
     max-width: 100%;
     width: 100%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .disp {
@@ -123,8 +126,9 @@
     flex-wrap: wrap;
 }
 
-.child {
-    flex: 1;
+.img-child {
+    width: 50vw;
+    align-self: center;
 }
 
 @media screen and (max-width: 768px) {

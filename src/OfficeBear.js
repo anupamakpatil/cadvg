@@ -30,21 +30,23 @@ class OfficeBear extends Component {
                     </div>
                 </div>
                 <div className="banner">
-                    <h2 className="heading">Current Executive Committee and Office Bearers</h2> <br />
+                    <h2 className="heading">Current Executive Committee and Office Bearers</h2>
+                    <br />
                     <div className='disp'>
-                        <div className='child'>
+                        <div className='img-child'>
                             <img src={exec} alt='exec committee picture' className='alter-image' />
                         </div>
-                        <div className='content child'>
-                            <p className='paragraph'>Honorary President: CA A S Veeranna </p>
-                            <p className='paragraph'>President: CA Kiran L Patil </p>
-                            <p className='paragraph'>Vice President: CA Madhuprasad </p>
-                            <p className='paragraph'>Secretary: CA Umesh Shetty </p>
-                            <p className='paragraph'>Joint Secretary: CA Omkar </p>
-                            <p className='paragraph'>Treasurer: CA Lingaraj S </p>
+                        <div className='content'>
+                            <p className='paragraph'>Honorary President: CA A S Veeranna</p>
+                            <p className='paragraph'>President: CA Kiran L Patil</p>
+                            <p className='paragraph'>Vice President: CA Madhuprasad</p>
+                            <p className='paragraph'>Secretary: CA Umesh Shetty</p>
+                            <p className='paragraph'>Joint Secretary: CA Omkar</p>
+                            <p className='paragraph'>Treasurer: CA Lingaraj S</p>
                         </div>
                     </div>
                 </div>
+
             </div>
         );
     }
