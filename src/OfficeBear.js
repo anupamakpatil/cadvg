@@ -7,11 +7,11 @@ import exec from './images/exec.jpeg';
 class OfficeBear extends Component {
     render() {
         return (
-            <div>
-                <div class="banner">
-                    <div class="border"> </div>
+            <div className="container">
+                <div className="banner">
+                    <div className="border"></div>
                     <h2 className='heading'>Current Office Bearers</h2>
-                    <div class="border border-bottom"> </div>
+                    <div className="border border-bottom"></div>
                 </div>
                 <div className='card-row'>
                     <div className="office-card">
@@ -33,10 +33,10 @@ class OfficeBear extends Component {
                     <h2 className="heading">Current Executive Committee and Office Bearers</h2> <br />
                     <div className='disp'>
                         <div className='child'>
-                            <img src={exec} alt='exec committe picture' className='alter-image' />
+                            <img src={exec} alt='exec committee picture' className='alter-image' />
                         </div>
                         <div className='content child'>
-                            <p className='paragraph'>Honarary President: CA A S Veeranna </p>
+                            <p className='paragraph'>Honorary President: CA A S Veeranna </p>
                             <p className='paragraph'>President: CA Kiran L Patil </p>
                             <p className='paragraph'>Vice President: CA Madhuprasad </p>
                             <p className='paragraph'>Secretary: CA Umesh Shetty </p>
@@ -46,7 +46,6 @@ class OfficeBear extends Component {
                     </div>
                 </div>
             </div>
-
         );
     }
 }

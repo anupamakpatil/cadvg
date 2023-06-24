@@ -34,7 +34,7 @@
 .border {
     width: 60%;
     margin: 0 auto;
-    height: 47px;
+    height: 7px;
     border: 2px solid #D7CCC8;
     border-bottom: 0;
 }
@@ -98,8 +98,8 @@
 }
 
 .image-resize {
-    width: 300px;
-    height: 250px;
+    width: 100%;
+    height: auto;
 }
 
 .card-row {
@@ -113,14 +113,22 @@
 }
 
 .alter-image {
-    width: 1000px;
-    margin-top: 1%;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 .disp {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .child {
     flex: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .office-card {
+        max-width: 100%;
+    }
 }

@@ -9,7 +9,6 @@ import UsefulLinks from './UsefulLinks';
 import Article1 from './Article1';
 import Article2 from './Article2';
 import Article3 from './Article3';
-import Intro from './Intro';
 import './Navigation.css';
 import llogo from './images/llogo.ico';
 import rlogo from './images/rlogo.ico';
