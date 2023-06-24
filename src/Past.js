@@ -28,7 +28,7 @@ class Past extends Component {
                 <div className="container">
                     <div className="content">
                         <p className='paragraph'>Davangere Chartered Accountants Association was formally registered during 1987-88 with the main object of enriching the knowledge of members, encouraging pleasant sentiment and harmony amongst members, and to conduct seminars and conferences for the benefit of members and the public at large."Gyanam Sarvatra Sadhanam" which means “Knowledge is the means to accomplish everything” and is the dictum of the Davangere CA Association.</p>
-                        <p className='paragraph'>On September 23, 2006, we made "SANKALPA<Link exact to="/intro" className='deco'>,</Link>" the resolute decision to construct our building. Finally, on June 21, 2023, our vision became a reality, symbolized by the accomplishment, or "SIDDHI," of our CA Bhawan. The time between intention and accomplishment is inconsequential once dreams materialize into truth.</p>
+                        <p className='paragraph'>On September 23, 2006, we made "SANKALPA," the resolute decision to construct our building. Finally, on June 21, 2023, our vision became a reality, symbolized by the accomplishment, or "SIDDHI," of our CA Bhawan. The time between intention and accomplishment is inconsequential once dreams materialize into truth.</p>
                     </div>
                 </div>
                 <div className="row">

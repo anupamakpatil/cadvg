@@ -47,7 +47,6 @@ class Navigation extends Component {
                         <Route exact path="/articles/articleone" element={<Article1 />} />
                         <Route exact path="/articles/articletwo" element={<Article2 />} />
                         <Route exact path="/articles/articlethree" element={<Article3 />} />
-                        <Route exact path="/intro" element={<Intro />} />
                     </Routes>
                 </div>
             </div>
