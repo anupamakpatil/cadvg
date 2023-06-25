@@ -1,6 +1,6 @@
 .container {
     margin: 0 auto;
-} 
+}
 
 .heading {
     color: #D7CCC8;
@@ -40,4 +40,10 @@
 .alter {
     width: 1000px;
     margin-top: 1%;
+}
+
+@media screen and (max-width: 768px) {
+    .alter {
+        width: 100vw;
+    }
 }
